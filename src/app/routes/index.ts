@@ -1,5 +1,4 @@
 import express from "express"
-import { MeilisearchRoutes } from "../modules/Meilisearch/meilisearch.routes";
 import { userRoutes } from "../modules/User/user.routes";
 
 
@@ -12,10 +11,7 @@ const moduleRoutes = [
     },
    
 
-    {
-        path: '/search-items',
-        route: MeilisearchRoutes,
-    },
+  
  
 ];
 
